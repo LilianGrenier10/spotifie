@@ -1,0 +1,101 @@
+spotify_id,title,artist,album,preview_url,image_url,duration_ms,popularity,genre,danceability,energy,valence,tempo,acousticness,instrumentalness,speechiness,loudness
+0VjIjW4GlUZAMYd2vXMi3b,Blinding Lights,The Weeknd,After Hours,,https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36,200040,95,synthwave,0.514,0.730,0.334,171.005,0.001,0.000,0.060,-5.934
+6habFhsOp2NvshLv26DqMb,Despacito,Luis Fonsi,Vida,,https://i.scdn.co/image/ab67616d0000b2734185fad6a5b5b35c5d7d2a06,228827,90,latin,0.660,0.786,0.846,177.833,0.209,0.000,0.170,-4.757
+7qiZfU4dY1lWllzX7mPBI3,Shape of You,Ed Sheeran,÷,,https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96,233713,93,pop,0.825,0.652,0.931,95.977,0.581,0.000,0.082,-3.183
+3KkXRkHbMCARz0aVfEt68P,Sunflower,Post Malone,Spider-Man Into the Spider-Verse,,https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605,158040,89,hip-hop,0.764,0.479,0.913,89.911,0.560,0.000,0.056,-5.574
+6DCZcSspjsKoFjzjrWoCdn,God's Plan,Drake,Scary Hours,,https://i.scdn.co/image/ab67616d0000b27347e91a8b4f5dee2c8e8e4c1e,198973,87,hip-hop,0.754,0.449,0.357,77.169,0.033,0.000,0.109,-9.211
+2takcwOaAZWiXQijPHIx7B,Time,Pink Floyd,The Dark Side of the Moon,,https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe,421040,72,rock,0.392,0.730,0.366,118.875,0.029,0.012,0.034,-9.196
+3z8h0TU7ReDPLIbEnYhWZb,Bohemian Rhapsody,Queen,A Night at the Opera,,https://i.scdn.co/image/ab67616d0000b2731ae2bdc1378da1b440e1f610,354320,82,rock,0.392,0.402,0.228,143.883,0.288,0.000,0.054,-9.961
+40riOy7x9W7GXjyGp4pjAv,Hotel California,Eagles,Hotel California,,https://i.scdn.co/image/ab67616d0000b273e1d31e2a35d1ea10b2c7ff63,391376,79,rock,0.581,0.508,0.609,75.071,0.011,0.000,0.027,-9.484
+5CQ30WqJwcep0pYcV4AMNc,Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,,https://i.scdn.co/image/ab67616d0000b27330b9c4d9d842b4bbc3f15e9c,482830,77,rock,0.337,0.341,0.196,82.433,0.566,0.018,0.034,-13.317
+3AJwUDP919kvQ9QcozQPxg,Yesterday,The Beatles,Help!,,https://i.scdn.co/image/ab67616d0000b27395a3a3a472f04bdfe0ae6e3a,125666,75,rock,0.330,0.179,0.315,98.733,0.879,0.000,0.029,-11.830
+5ChkMS8OtdzJeqyybCc9R5,Billie Jean,Michael Jackson,Thriller,,https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be,294000,82,pop,0.911,0.654,0.847,117.071,0.024,0.755,0.157,-3.052
+2plbrEY59IikOBgBGLjaoe,Die With A Smile,Lady Gaga & Bruno Mars,Die With A Smile,,https://i.scdn.co/image/ab67616d0000b2734bcc8d8f3e1b8f8c2f8a8e2b,251668,98,pop,0.521,0.592,0.535,158.000,0.308,0.000,0.029,-7.777
+1mea3bSkSGXuIRvnydlB5b,Viva La Vida,Coldplay,Viva la Vida,,https://i.scdn.co/image/ab67616d0000b273ba9a8d24e76a6c6e0e6f1bba,242333,80,rock,0.487,0.617,0.428,138.015,0.115,0.000,0.040,-7.115
+4cOdK2wGLETKBW3PvgPWqT,Never Gonna Give You Up,Rick Astley,Whenever You Need Somebody,,https://i.scdn.co/image/ab67616d0000b273f0a3f1f7a2f0a3f1f7a2f0a3,213573,85,pop,0.727,0.890,0.946,113.302,0.275,0.000,0.054,-6.594
+3CRDbSIZ4r5MsZ0YwxuEkn,Lose Yourself,Eminem,8 Mile,,https://i.scdn.co/image/ab67616d0000b273e12cf8c97bcd7da5d3b4f9ab,326066,86,hip-hop,0.696,0.864,0.378,170.992,0.024,0.000,0.296,-4.711
+7lQ8MOhq6IN2w8EYcFNSUk,Without Me,Eminem,The Eminem Show,,https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b,290320,80,hip-hop,0.911,0.668,0.745,112.250,0.095,0.000,0.286,-4.395
+1z6WtY7X4HQJvzxC4UgkSf,Believer,Imagine Dragons,Evolve,,https://i.scdn.co/image/ab67616d0000b27313ef5f4a10b76cef1e4d7c64,204346,84,rock,0.776,0.780,0.666,124.949,0.061,0.000,0.128,-4.374
+60nZcImufyMA1MKQY3dcCH,Happier,Marshmello,Happier,,https://i.scdn.co/image/ab67616d0000b2735c6d0f3a2c3e0b8f2a8b3c5e,214289,79,electronic,0.685,0.792,0.671,100.015,0.191,0.000,0.045,-2.749
+2WfaOiMkCvy7F5fcp2zZ8L,Take On Me,a-ha,Hunting High and Low,,https://i.scdn.co/image/ab67616d0000b273aaaaaaaaaaaaaaaaaaaaaaaa,225280,78,synthwave,0.573,0.901,0.876,84.553,0.005,0.005,0.039,-7.391
+2374M0fQpWi3dLnB54qaLX,Africa,Toto,Toto IV,,https://i.scdn.co/image/ab67616d0000b273bbbbbbbbbbbbbbbbbbbbbbbb,295893,76,rock,0.671,0.480,0.769,92.916,0.234,0.000,0.029,-12.204
+1jzIJcHHWKi40DmLRkWeyR,Smells Like Teen Spirit,Nirvana,Nevermind,,https://i.scdn.co/image/ab67616d0000b273cccccccccccccccccccccccc,301920,77,rock,0.502,0.912,0.720,116.761,0.000,0.000,0.046,-4.556
+6tNQ70jh4OwlCpTI3l1qvP,Toxicity,System of a Down,Toxicity,,https://i.scdn.co/image/ab67616d0000b273dddddddddddddddddddddddd,213120,71,metal,0.434,0.929,0.346,73.082,0.000,0.005,0.051,-4.131
+2tpWsVSb9UEmDRxAl1zhX1,Numb,Linkin Park,Meteora,,https://i.scdn.co/image/ab67616d0000b273eeeeeeeeeeeeeeeeeeeeeeee,185626,80,rock,0.486,0.890,0.358,110.106,0.001,0.000,0.073,-4.911
+6hEdaqQHheXkuXjEwhBpaG,Counting Stars,OneRepublic,Native,,https://i.scdn.co/image/ab67616d0000b273ffffffffffffffffffffffff,257267,75,pop,0.665,0.701,0.480,121.999,0.064,0.000,0.039,-4.972
+3VqeTFIvhxu3DIe4eZVzGq,Faded,Alan Walker,Different World,,https://i.scdn.co/image/ab67616d0000b2731111111111111111111111ff,212106,82,electronic,0.461,0.534,0.156,90.014,0.005,0.001,0.092,-5.085
+0pqnGHJpmpxLKifKRmU6WP,Levitating,Dua Lipa,Future Nostalgia,,https://i.scdn.co/image/ab67616d0000b2732222222222222222222222ff,203064,86,pop,0.702,0.825,0.915,102.977,0.008,0.000,0.060,-3.787
+1BxfuPKGuaTgP7aM0Bbdwr,Cruel Summer,Taylor Swift,Lover,,https://i.scdn.co/image/ab67616d0000b2733333333333333333333333ff,178426,94,pop,0.552,0.702,0.564,170.000,0.117,0.000,0.157,-5.707
+2ZBNclWdVuyVgE7Vmq8MwR,Anti-Hero,Taylor Swift,Midnights,,https://i.scdn.co/image/ab67616d0000b2734444444444444444444444ff,200690,89,pop,0.637,0.643,0.533,97.008,0.045,0.000,0.051,-6.571
+6UelLqGlWMcVH1E5c4H7lY,Watermelon Sugar,Harry Styles,Fine Line,,https://i.scdn.co/image/ab67616d0000b2735555555555555555555555ff,174000,88,pop,0.548,0.816,0.557,95.390,0.122,0.000,0.046,-4.209
+1zHlj4dQ8ZAtrayhuDDmkY,As It Was,Harry Styles,Harry's House,,https://i.scdn.co/image/ab67616d0000b2736666666666666666666666ff,167303,90,pop,0.520,0.731,0.662,173.930,0.342,0.001,0.055,-5.338
+0VgkVdmE4gld66l8iyGjgx,Bad Guy,Billie Eilish,WHEN WE ALL FALL ASLEEP,,https://i.scdn.co/image/ab67616d0000b2737777777777777777777777ff,194087,87,pop,0.701,0.425,0.562,135.128,0.328,0.130,0.375,-10.965
+6PERP62TejQjgHu81OHxgM,Therefore I Am,Billie Eilish,Therefore I Am,,https://i.scdn.co/image/ab67616d0000b2738888888888888888888888ff,174321,77,pop,0.890,0.453,0.638,94.012,0.298,0.001,0.144,-9.614
+3w3y8KPTfNeOKPiqUTakBh,Lavender Haze,Taylor Swift,Midnights,,https://i.scdn.co/image/ab67616d0000b2739999999999999999999999ff,202396,82,pop,0.732,0.439,0.097,96.864,0.142,0.000,0.062,-9.904
+1jaTQ3nqY3oAAYyCTbIvnM,WHATS POPPIN,Jack Harlow,Sweet Action,,https://i.scdn.co/image/ab67616d0000b273aabbccddeeff00112233445566,139741,76,hip-hop,0.778,0.652,0.594,144.961,0.131,0.000,0.279,-7.398
+4ZtFanR9U6ndgddUvNcjcG,good 4 u,Olivia Rodrigo,SOUR,,https://i.scdn.co/image/ab67616d0000b273bbccddeeff0011223344556677,178148,86,rock,0.563,0.664,0.688,166.928,0.335,0.000,0.154,-5.044
+4iJyoBOLtHqaGxP12qzhQI,Peaches,Justin Bieber,Justice,,https://i.scdn.co/image/ab67616d0000b273ccddeeff001122334455667788,198000,85,pop,0.677,0.696,0.464,90.030,0.321,0.000,0.117,-6.181
+6f3Slt0GbA2bPZlz0aIFXN,The Less I Know The Better,Tame Impala,Currents,,https://i.scdn.co/image/ab67616d0000b273ddeeff00112233445566778899,216320,79,indie,0.640,0.740,0.785,116.879,0.572,0.005,0.029,-4.083
+0WrPaA08PMUv6KsUIQM8DV,Borderline,Tame Impala,The Slow Rush,,https://i.scdn.co/image/ab67616d0000b273eeff0011223344556677889900,237920,71,indie,0.731,0.611,0.515,98.998,0.179,0.075,0.040,-7.028
+4jbmgIyjGoXjY01XxatOx6,Skinny Love,Bon Iver,For Emma Forever Ago,,https://i.scdn.co/image/ab67616d0000b273ff00112233445566778899aabb,238626,68,indie,0.503,0.275,0.232,135.873,0.842,0.027,0.034,-12.041
+26gKuhmWsCBlrHd9LIvyAd,Holocene,Bon Iver,Bon Iver,,https://i.scdn.co/image/ab67616d0000b27300112233445566778899aabbcc,337346,67,indie,0.443,0.275,0.230,114.087,0.789,0.092,0.029,-9.831
+0eGsygTp906u18L0Oimnem,Mr. Brightside,The Killers,Hot Fuss,,https://i.scdn.co/image/ab67616d0000b273112233445566778899aabbccdd,222586,79,rock,0.355,0.916,0.235,148.114,0.001,0.000,0.090,-3.901
+54bm2e3tk8cliUz3VSdCPZ,Riptide,Vance Joy,Dream Your Life Away,,https://i.scdn.co/image/ab67616d0000b27322334455667788aabbccddeeff,204293,73,indie,0.519,0.794,0.708,101.840,0.471,0.005,0.040,-6.122
+6F5cqyqLKRP9LlrkABNAyc,Heat Waves,Glass Animals,Dreamland,,https://i.scdn.co/image/ab67616d0000b27333445566778899aabbccddeeff,238805,87,indie,0.761,0.525,0.531,80.870,0.440,0.001,0.057,-6.900
+3yfqSUWxFvZELEM4PmlwIR,One More Time,Daft Punk,Discovery,,https://i.scdn.co/image/ab67616d0000b27344556677889900aabbccddeeff,320357,79,electronic,0.645,0.951,0.755,123.018,0.005,0.776,0.044,-5.119
+60a0Rd6pjrkxjPbaKzXjfq,Get Lucky,Daft Punk,Random Access Memories,,https://i.scdn.co/image/ab67616d0000b27355667788990011aabbccddeeff,369626,76,electronic,0.770,0.812,0.864,116.024,0.041,0.000,0.046,-7.964
+6f807x0ima9a1j3VPbc7VN,Wake Me Up,Avicii,True,,https://i.scdn.co/image/ab67616d0000b273667788990011aabbccddeeff00,247426,82,electronic,0.526,0.783,0.643,124.061,0.000,0.000,0.030,-5.555
+2374M0fQpWi3dLnB54qaXX,Levels,Avicii,Levels,,https://i.scdn.co/image/ab67616d0000b273778899aabbccddeeff001122,202800,76,electronic,0.515,0.875,0.610,126.005,0.000,0.760,0.040,-5.300
+4Dvkj6JhhA12EX05fT7y2e,As It Was,Hozier,Wasteland Baby,,https://i.scdn.co/image/ab67616d0000b27388990011aabbccddeeff112233,260600,69,indie,0.452,0.588,0.395,77.012,0.617,0.001,0.038,-7.512
+1Je1IMUlBXcx1Fz0WE7oPT,Dreams,Fleetwood Mac,Rumours,,https://i.scdn.co/image/ab67616d0000b27399aabbccddeeff0011223344,257146,80,rock,0.591,0.391,0.762,120.063,0.151,0.000,0.027,-9.692
+1cyPK1pJfb0oRZqU5BQF7T,Africa,Weezer,Weezer (Teal Album),,https://i.scdn.co/image/ab67616d0000b273aabbccddeeff001122334455,266253,67,rock,0.703,0.520,0.840,93.000,0.222,0.000,0.029,-9.111
+3jjujdWJ72nww5eGnfs2E7,Dance Monkey,Tones and I,The Kids Are Coming,,https://i.scdn.co/image/ab67616d0000b273bbccddeeff112233445566778,209754,84,pop,0.824,0.588,0.540,98.027,0.689,0.000,0.097,-6.400
+2dpaYNEQHiRxtZbfNsse99,Happy,Pharrell Williams,Despicable Me 2,,https://i.scdn.co/image/ab67616d0000b273ccddeeff112233445566778899,232720,79,pop,0.647,0.822,0.962,160.079,0.219,0.000,0.183,-5.230
+0nbXyq5TXYPCO7pr3N8S4I,The Real Slim Shady,Eminem,The Marshall Mathers LP,,https://i.scdn.co/image/ab67616d0000b273ddeeff112233445566778899ab,284200,75,hip-hop,0.949,0.661,0.760,104.504,0.029,0.000,0.255,-3.585
+4xkOaSrkexMciUUogZKVTS,Toxic,Britney Spears,In the Zone,,https://i.scdn.co/image/ab67616d0000b273eeff11223344556677889900ab,198800,82,pop,0.780,0.834,0.910,143.040,0.025,0.025,0.140,-3.914
+6D8E1QzwO2dFNflpJ0lLcL,Save Your Tears,The Weeknd,After Hours,,https://i.scdn.co/image/ab67616d0000b273ff112233445566778899aabbcc,215626,86,synthwave,0.680,0.826,0.644,118.051,0.022,0.000,0.030,-5.487
+0lYBSQXN6rCTvUZvg9S0lU,Snowman,Sia,Everyday Is Christmas,,https://i.scdn.co/image/ab67616d0000b273112233445566778899aabbccdd,167625,75,pop,0.530,0.500,0.327,75.063,0.694,0.000,0.039,-6.825
+4TJaH9PsLyGISEMK2Tdv9F,Clair de Lune,Claude Debussy,Suite Bergamasque,,https://i.scdn.co/image/ab67616d0000b27322334455667788aabbccddeeff,303333,55,classical,0.169,0.018,0.129,86.000,0.991,0.917,0.038,-29.500
+0HTZ23xL9DDFNhUxQbwexL,Moonlight Sonata,Beethoven,Piano Sonata 14,,https://i.scdn.co/image/ab67616d0000b27333445566778899aabbccddeefe,346000,52,classical,0.243,0.045,0.119,55.000,0.985,0.864,0.039,-25.300
+6yKwYXjJOY9HBV7Eoq72eC,Spring,Vivaldi,The Four Seasons,,https://i.scdn.co/image/ab67616d0000b27344556677889900aabbccddeefd,220000,50,classical,0.330,0.272,0.412,135.000,0.927,0.910,0.045,-19.200
+3AAQ2izRYAhqyOH2BNlhPj,Take Five,Dave Brubeck,Time Out,,https://i.scdn.co/image/ab67616d0000b27355667788990011aabbccddeefc,324000,60,jazz,0.540,0.350,0.620,170.000,0.701,0.620,0.040,-15.500
+6FJjLOWmvGcLpCDbRT3keE,So What,Miles Davis,Kind of Blue,,https://i.scdn.co/image/ab67616d0000b273667788990011aabbccddeefb,564000,58,jazz,0.402,0.220,0.461,135.000,0.798,0.882,0.038,-19.000
+6QiHV1Lqxnh3oeUpyJgVUO,My Favorite Things,John Coltrane,My Favorite Things,,https://i.scdn.co/image/ab67616d0000b273778899aabbccddeeff001122ff,824000,52,jazz,0.385,0.430,0.300,138.000,0.620,0.840,0.045,-17.500
+5fwSHlTEWpluwOM0Sxnh5k,Pursuit Of Happiness,Kid Cudi,Man on the Moon,,https://i.scdn.co/image/ab67616d0000b273aabbccddeeff0011223344ff00,304413,75,hip-hop,0.531,0.737,0.470,140.146,0.040,0.000,0.099,-5.140
+4w6QpSphidjzDwzjazXSnA,No Role Modelz,J. Cole,2014 Forest Hills Drive,,https://i.scdn.co/image/ab67616d0000b273bbccddeeff001122334455ff00,292879,82,hip-hop,0.694,0.518,0.446,100.029,0.116,0.000,0.146,-7.985
+3DamFFqW32WihKkTVlwTYQ,Fireflies,Owl City,Ocean Eyes,,https://i.scdn.co/image/ab67616d0000b273ccddeeff00112233445566ff00,228986,72,electronic,0.643,0.755,0.793,90.014,0.110,0.001,0.063,-3.789
+6gBFPUFcJLzWGx4lenP6h2,goosebumps,Travis Scott,Birds in the Trap Sing McKnight,,https://i.scdn.co/image/ab67616d0000b273ddeeff0011223344556677ff00,243836,82,hip-hop,0.841,0.728,0.430,130.049,0.083,0.000,0.087,-3.370
+2Fxmhks0bxGSBdJ92vM42m,bad guy (with Justin Bieber),Billie Eilish,Bad Guy,,https://i.scdn.co/image/ab67616d0000b273eeff001122334455667788ff00,194520,78,pop,0.747,0.396,0.609,135.128,0.330,0.130,0.375,-10.965
+1lzr43nnXAijIGYnCT8M8H,Highway to Hell,AC/DC,Highway to Hell,,https://i.scdn.co/image/ab67616d0000b273ff0011223344556677889900,208440,73,metal,0.486,0.961,0.778,116.150,0.000,0.001,0.052,-3.881
+57JVGBtBLCfHw2muk5416J,Master of Puppets,Metallica,Master of Puppets,,https://i.scdn.co/image/ab67616d0000b273001122334455667788990011,515413,71,metal,0.346,0.992,0.439,213.156,0.000,0.000,0.067,-3.000
+6Z8R6UsFuGXGtiIxiD8ISb,Killing in the Name,Rage Against the Machine,Rage Against the Machine,,https://i.scdn.co/image/ab67616d0000b273112233445566778899001122,313640,74,metal,0.545,0.917,0.521,108.097,0.000,0.000,0.131,-4.917
+1mWdTewIgB3gtBM3TOSFhB,Iron Man,Black Sabbath,Paranoid,,https://i.scdn.co/image/ab67616d0000b273223344556677889900112233,355626,68,metal,0.430,0.747,0.410,170.500,0.005,0.026,0.060,-7.500
+3GCdLUSnKSMJhs4Tj6CV3s,All of Me,John Legend,Love in the Future,,https://i.scdn.co/image/ab67616d0000b273334455667788990011223344,269560,84,r&b,0.422,0.264,0.331,119.930,0.922,0.000,0.030,-7.064
+0c6xIDDpzE81m2q797ordA,All I Want for Christmas Is You,Mariah Carey,Merry Christmas,,https://i.scdn.co/image/ab67616d0000b273445566778899001122334455,241066,82,pop,0.336,0.625,0.350,150.273,0.165,0.000,0.038,-7.463
+4ZtFanR9U6ndgddUvNcjcZ,Old Town Road,Lil Nas X,7,,https://i.scdn.co/image/ab67616d0000b273556677889900112233445566,113000,80,country,0.878,0.619,0.639,136.041,0.054,0.000,0.102,-5.560
+0vjeOZ3Ft5jvAi9SBFJm1j,Tennessee Whiskey,Chris Stapleton,Traveller,,https://i.scdn.co/image/ab67616d0000b273667788990011223344556677,294586,77,country,0.557,0.402,0.539,87.911,0.652,0.000,0.029,-7.917
+2nMeu6UenVvwUktBCpLMK9,The Night We Met,Lord Huron,Strange Trails,,https://i.scdn.co/image/ab67616d0000b27377889900112233445566778899,206106,72,indie,0.443,0.488,0.243,72.998,0.598,0.122,0.026,-9.063
+1ZB0WmNmiKozn9c3WFi5Tg,Drivers License,Olivia Rodrigo,SOUR,,https://i.scdn.co/image/ab67616d0000b273889900112233445566778899aa,242014,82,pop,0.585,0.436,0.132,143.874,0.721,0.000,0.060,-8.755
+1HCfmcORD9XHGPPdR0pJpA,Stressed Out,Twenty One Pilots,Blurryface,,https://i.scdn.co/image/ab67616d0000b27399001122334455667788aabbcc,202333,80,pop,0.734,0.637,0.648,169.977,0.045,0.000,0.142,-5.667
+3ee8Jmje8o58CHK66QrVC2,SUMMERTIME SADNESS,Lana Del Rey,Born to Die,,https://i.scdn.co/image/ab67616d0000b27300112233445566778899aabbcc,265421,76,indie,0.629,0.491,0.221,87.062,0.220,0.000,0.030,-7.150
+1WtTLtofvcjQM3sXSMkDdX,Take Me to Church,Hozier,Hozier,,https://i.scdn.co/image/ab67616d0000b273112233445566778899aabbccdd,241688,80,indie,0.566,0.664,0.473,128.945,0.638,0.000,0.046,-5.303
+2cmEaqArQQM2YzdYFq8KEK,Pumped Up Kicks,Foster the People,Torches,,https://i.scdn.co/image/ab67616d0000b273223344556677889900aabbccdd,239960,78,indie,0.733,0.704,0.954,128.013,0.165,0.078,0.029,-5.957
+3mKFztgvkN4qE0ZCAtsBp1,Somebody That I Used to Know,Gotye,Making Mirrors,,https://i.scdn.co/image/ab67616d0000b273334455667788990011aabbccdd,244320,80,indie,0.860,0.466,0.747,129.063,0.612,0.001,0.039,-9.085
+3JOVTQ5h8HGFnDdp4VT3MP,Royals,Lorde,Pure Heroine,,https://i.scdn.co/image/ab67616d0000b273445566778899001122aabbccdd,190200,82,indie,0.736,0.428,0.469,84.875,0.474,0.001,0.110,-9.582
+77ehDvkr9JgwIOdj5HOoOe,Green Light,Lorde,Melodrama,,https://i.scdn.co/image/ab67616d0000b27355667788990011223344aabbcc,196400,73,indie,0.589,0.677,0.387,128.984,0.038,0.001,0.147,-5.658
+3W3y55a2hdcZL5Sax9aSqr,Tek It,Cafuné,Running,,https://i.scdn.co/image/ab67616d0000b27366778899001122334455aabbcc,179260,75,indie,0.620,0.671,0.475,138.999,0.226,0.000,0.029,-7.200
+0e7ipj03S05BNilyu5bRzt,Let Her Go,Passenger,All the Little Lights,,https://i.scdn.co/image/ab67616d0000b273778899001122334455aabbccdd,251466,76,indie,0.595,0.578,0.480,75.011,0.587,0.000,0.029,-7.250
+4kbj5MwxO1bq9wjT5g9HaA,Stay,The Kid LAROI,F*CK LOVE 3,,https://i.scdn.co/image/ab67616d0000b273889900112233445566aabbccdd,141806,89,pop,0.591,0.764,0.478,169.928,0.038,0.000,0.048,-5.484
+0bYg9bo50gSsH3LtXe2SQn,Hozier,Hozier,Take Me to Church Variation,,https://i.scdn.co/image/ab67616d0000b273990011223344556677aabbccde,260306,72,indie,0.452,0.488,0.350,77.012,0.617,0.001,0.038,-7.512
+2BIA0nNCFJ5OqqLknHJZAY,Gimme More,Britney Spears,Blackout,,https://i.scdn.co/image/ab67616d0000b27300112233445566778899ccddee,251000,66,electronic,0.752,0.834,0.590,128.997,0.020,0.001,0.144,-3.854
+6mnjcTmK0lwAlcXCDyik5Z,Lights,Ellie Goulding,Lights,,https://i.scdn.co/image/ab67616d0000b273112233445566778899ccddeeff,205906,73,electronic,0.530,0.752,0.452,120.038,0.078,0.000,0.044,-3.934
+2DlGxzQSjYe5N6G9nkYghR,Rolling in the Deep,Adele,21,,https://i.scdn.co/image/ab67616d0000b27322334455667788aabbccddeefg,228293,82,pop,0.730,0.770,0.507,105.072,0.139,0.000,0.030,-5.114
+3pe6KhVgGPGnQpkqycu1Mp,Hello,Adele,25,,https://i.scdn.co/image/ab67616d0000b27333445566778899aabbccddeefh,295520,80,pop,0.572,0.443,0.293,79.027,0.317,0.000,0.038,-6.122
+4VqPOruhp5EdPBeR92t6lQ,Uptown Funk,Mark Ronson,Uptown Special,,https://i.scdn.co/image/ab67616d0000b27344556677889900aabbccddeefi,269667,80,funk,0.856,0.609,0.928,114.988,0.008,0.000,0.083,-7.223
+3wVjrlAuQDCkgr6vjAqwXm,Get Down On It,Kool & The Gang,Something Special,,https://i.scdn.co/image/ab67616d0000b27355667788990011aabbccddeefj,287306,68,funk,0.810,0.633,0.818,116.004,0.057,0.000,0.030,-9.024
+0mLLetmYyULcYzr6JS4cYY,September,Earth Wind & Fire,The Best of Earth Wind & Fire,,https://i.scdn.co/image/ab67616d0000b273667788990011aabbccddeefk1,215000,80,funk,0.700,0.857,0.978,125.998,0.244,0.000,0.046,-7.146
+6mFkJmJqdDVQ1REhVfGgd1,Wonderwall,Oasis,Morning Glory,,https://i.scdn.co/image/ab67616d0000b273778899aabbccddeeff112233abc,258613,82,rock,0.408,0.892,0.654,87.024,0.001,0.000,0.039,-4.380
+6f9wQQRX9XxPGqU8LRGI04,Don't Look Back in Anger,Oasis,Morning Glory,,https://i.scdn.co/image/ab67616d0000b27388990011aabbccddeeff223344abc,295560,75,rock,0.494,0.668,0.530,80.121,0.106,0.000,0.034,-7.107
+2Z8WuEywRWYTKe1NybPQEW,Ride,Twenty One Pilots,Blurryface,,https://i.scdn.co/image/ab67616d0000b27399001122aabbccddeeff334455abc,214506,80,pop,0.583,0.704,0.463,75.024,0.108,0.000,0.124,-6.400
+6PyjI8amcJEWSkfgZNQVh4,Stronger,Kanye West,Graduation,,https://i.scdn.co/image/ab67616d0000b27300112233aabbccddeeff445566abc,311866,76,hip-hop,0.617,0.747,0.497,104.030,0.014,0.000,0.054,-5.748
+1OxcIUqMDgtNT9pLWWYqJl,Mo Bamba,Sheck Wes,Mudboy,,https://i.scdn.co/image/ab67616d0000b273112233aabbccddeeff556677abc,182040,77,hip-hop,0.728,0.677,0.182,146.007,0.003,0.000,0.080,-5.798

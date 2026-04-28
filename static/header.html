@@ -1,0 +1,17 @@
+<header>
+    <div class="container" style="display: flex; width: 100%; justify-content: space-between; align-items: center;">
+        <div class="logo">SPOTIFIÉ</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html" data-page="index.html">Accueil</a></li>
+                <li><a href="/main.html" data-page="main.html">Découvrir</a></li>
+                <li><a href="/likes.html" data-page="likes.html" data-auth-only>Mes likes</a></li>
+                <li><a href="/profil.html" data-page="profil.html" data-auth-only>Mes playlists</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions" style="display: flex; gap: 10px; align-items: center;">
+            <a href="/login.html" class="btn-login" data-page="login.html" data-guest-only>Connexion</a>
+            <button id="logout-btn" class="btn-login" data-auth-only style="display:none; border:none; cursor:pointer;">Déconnexion</button>
+        </div>
+    </div>
+</header>

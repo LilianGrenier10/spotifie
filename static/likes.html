@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFIÉ — Mes likes</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/profil.css">
+    <link rel="stylesheet" href="/likes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="container">
+            <div class="profile-header">
+                <h1 class="page-title">Mes likes</h1>
+                <div class="profile-actions">
+                    <span id="likes-count" class="spotify-status"></span>
+                </div>
+            </div>
+
+            <div id="likes-container" class="likes-list"></div>
+            <div id="empty-state" class="empty-state" style="display:none;">
+                <i class="fa-solid fa-heart" style="font-size: 3rem; color: var(--primary); opacity: 0.5;"></i>
+                <h3>Aucun morceau liké pour l'instant</h3>
+                <p>Va sur <a href="/main.html" style="color: var(--primary)">la page Découvrir</a> et clique sur le cœur pour commencer.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal "ajouter à playlist" (réutilise styles main.css) -->
+    <div id="playlist-modal" class="modal-overlay" style="display:none;">
+        <div class="modal">
+            <h3>Ajouter à une playlist</h3>
+            <div id="playlist-modal-list"></div>
+            <hr style="border-color: var(--glass-border); margin: 1rem 0;">
+            <h4>Ou créer une nouvelle playlist</h4>
+            <input type="text" id="new-playlist-name" placeholder="Nom de la playlist" class="modal-input">
+            <div class="modal-actions">
+                <button id="modal-cancel" class="btn btn-secondary">Annuler</button>
+                <button id="modal-create" class="btn-login">Créer & ajouter</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio-player" preload="none"></audio>
+
+    <script src="/JS/api.js"></script>
+    <script src="/JS/header-loader.js"></script>
+    <script src="/JS/likes.js"></script>
+</body>
+</html>

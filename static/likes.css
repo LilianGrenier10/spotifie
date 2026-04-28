@@ -1,0 +1,116 @@
+.likes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 4rem;
+}
+
+.like-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    transition: var(--transition);
+}
+
+.like-row:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: var(--primary);
+}
+
+.like-row.playing {
+    background: rgba(99, 102, 241, 0.10);
+    border-color: var(--primary);
+}
+
+.like-cover {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #1a1a25;
+}
+
+.like-info {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.like-title {
+    font-weight: 600;
+    color: var(--text-main);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.like-artist {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.like-genre-pill {
+    display: inline-block;
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+
+.like-actions {
+    display: flex;
+    gap: 0.4rem;
+    flex-shrink: 0;
+}
+
+.like-actions .btn {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-radius: 8px;
+}
+
+.like-progress {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+}
+
+.like-row.playing .like-progress { display: block; }
+
+.like-progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #6366f1, #a855f7);
+    transition: width 0.2s linear;
+}
+
+.like-row-content {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 600px) {
+    .like-cover { width: 44px; height: 44px; }
+    .like-actions .btn { width: 34px; height: 34px; }
+}

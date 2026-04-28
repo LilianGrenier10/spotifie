@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://kit.fontawesome.com/b0c1f84340.js" crossorigin="anonymous"></script>
+    <title>SPOTIFIÉ — Découverte</title>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="discover-main">
+        <div class="container">
+            <div class="discover-header">
+                <h1 class="page-title">Vos 3 recommandations</h1>
+                <div class="discover-controls">
+                    <label class="control-label">
+                        Curiosité
+                        <input id="exotic-slider" type="range" min="0" max="1" step="0.05" value="0.25">
+                        <span id="exotic-value">25%</span>
+                    </label>
+                    <button id="refresh-btn" class="btn btn-secondary"><i class="fa-solid fa-rotate"></i> Nouvelles recos</button>
+                </div>
+            </div>
+
+            <div id="taste-summary" class="taste-summary"></div>
+
+            <div id="recommendations" class="recommendations-grid">
+                <!-- Cartes injectées par JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal "Ajouter à une playlist" -->
+    <div id="playlist-modal" class="modal-overlay" style="display:none;">
+        <div class="modal">
+            <h3>Ajouter à une playlist</h3>
+            <div id="playlist-modal-list"></div>
+            <hr style="border-color: var(--glass-border); margin: 1rem 0;">
+            <h4>Ou créer une nouvelle playlist</h4>
+            <input type="text" id="new-playlist-name" placeholder="Nom de la playlist" class="modal-input">
+            <div class="modal-actions">
+                <button id="modal-cancel" class="btn btn-secondary">Annuler</button>
+                <button id="modal-create" class="btn-login">Créer & ajouter</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio HTML5 caché : un seul player partagé -->
+    <audio id="audio-player" preload="none"></audio>
+
+    <script src="/JS/api.js"></script>
+    <script src="/JS/header-loader.js"></script>
+    <script src="/JS/discover.js"></script>
+</body>
+</html>

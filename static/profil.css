@@ -1,0 +1,183 @@
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.spotify-status {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.spotify-status.connected {
+    color: #1DB954;
+}
+
+.spotify-status.connected::before {
+    content: "● ";
+}
+
+.btn-spotify {
+    background: #1DB954;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-spotify:hover {
+    background: #1ed760;
+    transform: translateY(-2px);
+}
+
+.btn-spotify-disconnect {
+    background: transparent;
+    color: #1DB954;
+    border: 1px solid #1DB954;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+}
+
+.btn-spotify-disconnect:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border-color: #ef4444;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-muted);
+}
+
+.empty-state h3 {
+    margin: 1rem 0 0.5rem;
+    color: var(--text-main);
+}
+
+/* Playlist cards override */
+.playlist-card {
+    flex-direction: column;
+    position: relative;
+}
+
+.playlist-actions-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.playlist-actions-bar button {
+    flex: 1;
+    min-width: 0;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--text-muted);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.playlist-actions-bar button:hover {
+    color: var(--text-main);
+    border-color: var(--primary);
+}
+
+.playlist-actions-bar .btn-export {
+    background: rgba(29, 185, 84, 0.15);
+    border-color: rgba(29, 185, 84, 0.4);
+    color: #1DB954;
+}
+
+.playlist-actions-bar .btn-export:hover {
+    background: #1DB954;
+    color: #fff;
+    border-color: #1DB954;
+}
+
+.playlist-actions-bar .btn-delete:hover {
+    background: #ef4444;
+    color: #fff;
+    border-color: #ef4444;
+}
+
+.song-item {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    cursor: default;
+    position: relative;
+}
+
+.song-item .song-title {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.song-item .song-artist {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.song-item-actions {
+    display: flex;
+    gap: 0.3rem;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.song-item:hover .song-item-actions {
+    opacity: 1;
+}
+
+.song-item-actions button {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+.song-item-actions button:hover {
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.15);
+}
+
+.song-item-actions .remove-btn:hover {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.15);
+}

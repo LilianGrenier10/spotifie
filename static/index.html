@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFIÉ | Accueil</title>
+    <meta name="description" content="Découvrez de nouvelles musiques avec un algorithme qui apprend vos goûts.">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <h1>Découvrez la musique qui vous <span style="color: var(--primary);">ressemble</span>.</h1>
+                    <p>
+                        SPOTIFIÉ apprend vos goûts à mesure que vous likez des morceaux,
+                        et vous suggère 3 nouvelles pépites à chaque visite — dont une
+                        découverte exotique pour élargir votre univers musical.
+                    </p>
+                    <p>
+                        Connectez votre compte Spotify pour créer et exporter vos playlists
+                        en un clic.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="/main.html" class="btn-login" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Démarrer</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal" style="animation-delay: 0.2s;">
+                    <img src="/img/fille-casque.png" alt="Illustration projet fil rouge">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 0; border-top: 1px solid var(--glass-border); text-align: center; color: var(--text-muted);">
+        <div class="container">
+            <p>&copy; 2026 SPOTIFIÉ — Projet Fil Rouge B2 Ynov Lille.</p>
+        </div>
+    </footer>
+
+    <script src="/JS/api.js"></script>
+    <script src="/JS/header-loader.js"></script>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
