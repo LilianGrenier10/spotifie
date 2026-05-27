@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFIÉ — Mon compte</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">Mon compte</h1>
+
+            <!-- Carte 1 : Informations personnelles -->
+            <section class="account-card">
+                <div class="account-card-header">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <h2>Informations personnelles</h2>
+                </div>
+                <form id="profile-form" class="account-form">
+                    <label>
+                        <span>Pseudo</span>
+                        <input type="text" id="display_name" required>
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="email" required>
+                    </label>
+                    <div class="form-actions">
+                        <button type="submit" class="btn-login">Enregistrer</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Carte 2 : Mot de passe -->
+            <section class="account-card">
+                <div class="account-card-header">
+                    <i class="fa-solid fa-key"></i>
+                    <h2>Changer mon mot de passe</h2>
+                </div>
+                <form id="password-form" class="account-form">
+                    <label>
+                        <span>Mot de passe actuel</span>
+                        <input type="password" id="current_password" required autocomplete="current-password">
+                    </label>
+                    <label>
+                        <span>Nouveau mot de passe (min 6 caractères)</span>
+                        <input type="password" id="new_password" required minlength="6" autocomplete="new-password">
+                    </label>
+                    <label>
+                        <span>Confirmer le nouveau mot de passe</span>
+                        <input type="password" id="new_password2" required minlength="6" autocomplete="new-password">
+                    </label>
+                    <div class="form-actions">
+                        <button type="submit" class="btn-login">Changer le mot de passe</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Carte 3 : Préférences (curiosité) -->
+            <section class="account-card">
+                <div class="account-card-header">
+                    <i class="fa-solid fa-sliders"></i>
+                    <h2>Préférences de découverte</h2>
+                </div>
+                <div class="account-form">
+                    <label>
+                        <span>Curiosité — part de morceaux exotiques dans tes recommandations</span>
+                        <div class="slider-row">
+                            <input type="range" id="exotic_factor" min="0" max="1" step="0.05" value="0.25">
+                            <span id="exotic_value" class="slider-value">25 %</span>
+                        </div>
+                        <small class="hint">0 % : que des morceaux dans tes goûts. 100 % : surtout des découvertes.</small>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Carte 4 : Zone dangereuse -->
+            <section class="account-card danger">
+                <div class="account-card-header">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h2>Zone dangereuse</h2>
+                </div>
+                <div class="account-form">
+                    <p class="warning-text">
+                        Supprimer ton compte est <strong>définitif</strong> : toutes tes playlists,
+                        likes et interactions seront perdus.
+                    </p>
+                    <div class="form-actions">
+                        <button id="delete-account-btn" class="btn-danger">
+                            <i class="fa-solid fa-trash"></i> Supprimer mon compte
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal confirmation suppression -->
+    <div id="delete-modal" class="modal-overlay" style="display:none;">
+        <div class="modal">
+            <h3>Confirmer la suppression</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                Tape ton mot de passe pour confirmer. Cette action est irréversible.
+            </p>
+            <input type="password" id="delete-password" placeholder="Mot de passe" class="modal-input">
+            <div class="modal-actions">
+                <button id="delete-cancel" class="btn btn-secondary">Annuler</button>
+                <button id="delete-confirm" class="btn-danger">Supprimer définitivement</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JS/api.js"></script>
+    <script src="/JS/header-loader.js"></script>
+    <script src="/JS/account.js"></script>
+</body>
+</html>

@@ -122,6 +122,84 @@ def me():
     )
 
 
+# ---------------------------------------------------------------------------
+# Mise à jour du profil (pseudo + email)
+# ---------------------------------------------------------------------------
+@bp.put("/me")
+@login_required
+def update_me():
+    data = request.get_json(silent=True) or {}
+    new_name = (data.get("display_name") or "").strip()
+    new_email = (data.get("email") or "").strip().lower()
+
+    if not new_email or not new_name:
+        return jsonify({"error": "Pseudo et email requis"}), 400
+
+    # Vérifie unicité de l'email s'il a changé
+    if new_email != g.user["email"]:
+        existing = query_one(
+            "SELECT id FROM users WHERE email = ? AND id != ?",
+            (new_email, g.user["id"]),
+        )
+        if existing:
+            return jsonify({"error": "Cet email est déjà utilisé"}), 409
+
+    execute(
+        "UPDATE users SET email = ?, display_name = ? WHERE id = ?",
+        (new_email, new_name, g.user["id"]),
+    )
+    return jsonify(
+        {
+            "id": g.user["id"],
+            "email": new_email,
+            "display_name": new_name,
+            "spotify_connected": bool(g.user.get("spotify_id")),
+        }
+    )
+
+
+# ---------------------------------------------------------------------------
+# Changement de mot de passe
+# ---------------------------------------------------------------------------
+@bp.put("/password")
+@login_required
+def change_password():
+    data = request.get_json(silent=True) or {}
+    current = data.get("current_password") or ""
+    new = data.get("new_password") or ""
+
+    if not current or not new:
+        return jsonify({"error": "Mot de passe actuel et nouveau requis"}), 400
+    if len(new) < 6:
+        return jsonify({"error": "Nouveau mot de passe trop court (min 6 caractères)"}), 400
+    if not verify_password(current, g.user["password_hash"]):
+        return jsonify({"error": "Mot de passe actuel incorrect"}), 401
+
+    execute(
+        "UPDATE users SET password_hash = ? WHERE id = ?",
+        (hash_password(new), g.user["id"]),
+    )
+    return jsonify({"ok": True})
+
+
+# ---------------------------------------------------------------------------
+# Suppression du compte (avec confirmation par mot de passe)
+# ---------------------------------------------------------------------------
+@bp.delete("/me")
+@login_required
+def delete_me():
+    data = request.get_json(silent=True) or {}
+    password = data.get("password") or ""
+    if not verify_password(password, g.user["password_hash"]):
+        return jsonify({"error": "Mot de passe incorrect"}), 401
+
+    # Cascade : supprime playlists, interactions, etc. (FK ON DELETE CASCADE)
+    execute("DELETE FROM users WHERE id = ?", (g.user["id"],))
+    resp = make_response(jsonify({"ok": True}))
+    resp.delete_cookie("token")
+    return resp
+
+
 @bp.post("/preferences")
 @login_required
 def update_prefs():

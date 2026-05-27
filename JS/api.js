@@ -37,6 +37,11 @@
             request('/api/auth/login', { method: 'POST', body: { email, password } }),
         logout: () => request('/api/auth/logout', { method: 'POST' }),
         me: () => request('/api/auth/me'),
+        updateMe: (data) => request('/api/auth/me', { method: 'PUT', body: data }),
+        changePassword: (current_password, new_password) =>
+            request('/api/auth/password', { method: 'PUT', body: { current_password, new_password } }),
+        deleteAccount: (password) =>
+            request('/api/auth/me', { method: 'DELETE', body: { password } }),
         updatePrefs: (exotic_factor) =>
             request('/api/auth/preferences', { method: 'POST', body: { exotic_factor } }),
         spotifyLoginUrl: '/api/auth/spotify/login',

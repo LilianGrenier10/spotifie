@@ -1,0 +1,133 @@
+.account-card {
+    background: var(--card-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    max-width: 720px;
+}
+
+.account-card.danger {
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.account-card-header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.account-card-header i {
+    font-size: 1.3rem;
+    color: var(--primary);
+    width: 1.6rem;
+    text-align: center;
+}
+
+.account-card.danger .account-card-header i {
+    color: #ef4444;
+}
+
+.account-card-header h2 {
+    font-size: 1.15rem;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.account-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.account-form label > span {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.account-form input[type="text"],
+.account-form input[type="email"],
+.account-form input[type="password"] {
+    padding: 0.7rem 1rem;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: var(--text-main);
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.account-form input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.slider-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.slider-row input[type="range"] {
+    flex: 1;
+    accent-color: var(--primary);
+}
+
+.slider-value {
+    min-width: 3rem;
+    color: var(--primary);
+    font-weight: 600;
+    text-align: right;
+}
+
+.hint {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.warning-text {
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.warning-text strong {
+    color: #f87171;
+}
+
+.btn-danger {
+    background: transparent;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+}
+
+.btn-danger:hover {
+    background: #ef4444;
+    color: #fff;
+    transform: translateY(-1px);
+}
