@@ -151,32 +151,16 @@ print(c.get('/api/recommendations').get_json())
 "
 ```
 
-Voir aussi `docs/cahier-des-charges.md` pour le détail du barème et `docs/uml.md`
-pour les diagrammes.
+Voir aussi `docs/cahier-des-charges.md` pour la spécification fonctionnelle et
+`docs/uml.md` pour les diagrammes.
 
 ---
 
-## 📊 Mapping avec le barème (28 pts visés)
+## 🧠 Équipe
 
-| Item                                       | Points | Statut |
-|--------------------------------------------|:------:|:------:|
-| Communication entre 2 logiciels (REST)     |   6    |   ✅   |
-| BDD ≥ 3 tables (5 ici)                     |   3    |   ✅   |
-| Algorithme avancé (content-based + exotic) |   3    |   ✅   |
-| Interaction utilisateur                    |   2    |   ✅   |
-| CRUD complet (playlists)                   |   2    |   ✅   |
-| Cahier des charges                         |   4    |   ✅   |
-| Import CSV catalogue                       |   2    |   ✅   |
-| **Total**                                  | **22** |        |
-| Bonus Projet 4 (algo de reco renforcé)     |  +5    |   ✅   |
-| Bonus Projet 4 (CRUD playlists renforcé)   |  +4    |   ✅   |
-| **Estimation**                             | **31** |        |
-
----
-
-## 🧠 Auteurs
-
-* **Lilian** — backend, algo de recommandation, intégration Spotify, doc.
-* **Co-équipier** — front-end (HTML/CSS, design des cartes et playlists).
+* **Lilian Grenier** — backend Flask, algo de recommandation, intégration Spotify, documentation
+* **Rodrigo Luyckx** — backend Flask, endpoints REST, intégration Spotify (avec Lilian)
+* **Ruben Duriez** — base de données : modélisation relationnelle, schéma des 5 tables, requêtes SQL
+* **Lucas Gosselin** — front-end : maquettes HTML/CSS, design system, composants visuels
 
 Promotion INFO B2 — Ynov Lille — 2026.
