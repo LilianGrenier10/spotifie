@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
             el.style.display = user ? 'none' : '';
         });
 
-        // Si l'utilisateur est connecté on affiche son nom à la place de "Connexion"
         if (user) {
             const actions = document.querySelector('header .header-actions');
             if (actions) {
